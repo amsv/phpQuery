@@ -12,5 +12,5 @@ $doc = phpQuery::newDocument($file);
 //$tbl = $doc->find('#course-table-pb');
 $tr = $doc->find('#selectByPB tr:eq(2) td:eq(1)')->text();
 echo $tr;
-
+//
 ?>
